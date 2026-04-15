@@ -5,12 +5,9 @@
 **Оригинальные искодные коды:**  
 https://github.com/rasbt/LLMs-from-scratch
 
-
 <br/>
 
 ## Оглавление:
-
-**Часть 1: Основные паттерны (Foundational Patterns)**
 
 <ol>
   <li>Знакомство с большими языковыми моделями</li>
