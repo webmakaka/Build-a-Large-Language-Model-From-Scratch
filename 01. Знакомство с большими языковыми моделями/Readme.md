@@ -22,7 +22,7 @@
 
 <br/>
 
-```
+```shell
 $ mkdir -p ~/projects/dev/ml/llm
 $ cd ~/projects/dev/ml/llm
 $ git clone https://github.com/rasbt/LLMs-from-scratch
@@ -31,7 +31,7 @@ $ cd LLMs-from-scratch/
 
 <br/>
 
-```
+```shell
 $ pip install uv
 $ uv venv --python=python3.10
 $ source .venv/bin/activate
