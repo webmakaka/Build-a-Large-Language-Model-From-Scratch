@@ -4,6 +4,14 @@
 
 <img src="../img/chapter01-pic01.jpg">
 
+<br>
+
+### An overview of the LLM development lifecycle covered in this book:
+
+<br>
+
+[![Link to the video](https://img.youtube.com/vi/kPGTx4wcm_w/0.jpg)](https://www.youtube.com/watch?v=kPGTx4wcm_w)
+
 <br/>
 
 ### Python Environment Setup Video
@@ -30,11 +38,3 @@ $ source .venv/bin/activate
 $ uv pip install -r requirements.txt
 $ uv run jupyter lab
 ```
-
-<br>
-
-### An overview of the LLM development lifecycle covered in this book:
-
-<br>
-
-[![Link to the video](https://img.youtube.com/vi/kPGTx4wcm_w/0.jpg)](https://www.youtube.com/watch?v=kPGTx4wcm_w)
