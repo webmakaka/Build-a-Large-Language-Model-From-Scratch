@@ -1,26 +1,24 @@
 # Native uv Python and package management
 
-This tutorial is an alternative to *Option 1: Using uv* in the [README.md](./README.md) document for those who prefer `uv`'s native commands over the `uv pip` interface. While `uv pip` is faster than pure `pip`, `uv`'s native interface is even faster than `uv pip` as it has less overhead and doesn't have to handle legacy support for PyPy package dependency management.
+This tutorial is an alternative to _Option 1: Using uv_ in the [README.md](./README.md) document for those who prefer `uv`'s native commands over the `uv pip` interface. While `uv pip` is faster than pure `pip`, `uv`'s native interface is even faster than `uv pip` as it has less overhead and doesn't have to handle legacy support for PyPy package dependency management.
 
 The table below provides a comparison of the speeds of different dependency and package management approaches. The speed comparison specifically refers to package dependency resolution during installation, not the runtime performance of the installed packages. Note that package installation is a one-time process for this project, so it is reasonable to choose the preferred approach by overall convenience, not just installation speed.
 
-
-| Command               | Speed Comparison |
-|-----------------------|-----------------|
-| `conda install <pkg>` | Slowest (Baseline) |
-| `pip install <pkg>`   | 2-10× faster than above |
-| `uv pip install <pkg>`| 5-10× faster than above |
-| `uv add <pkg>`        | 2-5× faster than above |
+| Command                | Speed Comparison        |
+| ---------------------- | ----------------------- |
+| `conda install <pkg>`  | Slowest (Baseline)      |
+| `pip install <pkg>`    | 2-10× faster than above |
+| `uv pip install <pkg>` | 5-10× faster than above |
+| `uv add <pkg>`         | 2-5× faster than above  |
 
 This tutorial focuses on `uv add`.
 
-
-Otherwise, similar to *Option 1: Using uv* in the [README.md](./README.md) , this tutorial guides you through the Python setup and package installation procedure using `uv`.
+Otherwise, similar to _Option 1: Using uv_ in the [README.md](./README.md) , this tutorial guides you through the Python setup and package installation procedure using `uv`.
 
 In this tutorial, I am using a computer running macOS, but this workflow is similar for Linux machines and may work for other operating systems as well.
 
-
 &nbsp;
+
 ## 1. Install uv
 
 Uv can be installed as follows, depending on your operating system.
@@ -53,6 +51,7 @@ powershell -c "irm https://astral.sh/uv/install.ps1 | more"
 > For more installation options, please refer to the official [uv documentation](https://docs.astral.sh/uv/getting-started/installation/#standalone-installer).
 
 &nbsp;
+
 ## 2. Install Python packages and dependencies
 
 To install all required packages from a `pyproject.toml` file (such as the one located at the top level of this GitHub repository), run the following command, assuming the file is in the same directory as your terminal session:
@@ -67,9 +66,7 @@ uv sync --dev --python 3.11
 
 > **Note:**
 > If you have problems with the following commands above due to certain dependencies (for example, if you are using Windows), you can always fall back to regular pip:
-> `uv add pip`
-> `uv run python -m pip install -U -r requirements.txt`
-
+> `uv add pip` > `uv run python -m pip install -U -r requirements.txt`
 
 Note that the `uv sync` command above will create a separate virtual environment via the `.venv` subfolder. (In case you want to delete your virtual environment to start from scratch, you can simply delete the `.venv` folder.)
 
@@ -85,9 +82,8 @@ And you can remove packages via `uv remove`, for example,
 uv remove packaging
 ```
 
-
-
 &nbsp;
+
 ## 3. Run Python code
 
 <br>
@@ -100,10 +96,7 @@ Optionally, you can run an environment check by executing the `python_environmen
 uv run python setup/02_installing-python-libraries/python_environment_check.py
 ```
 
-
-
 <img src="https://sebastianraschka.com/images/LLMs-from-scratch-images/setup/uv-setup/uv-run-check.png?1" width="700" height="auto" alt="Uv install">
-
 
 <br>
 
@@ -144,11 +137,11 @@ jupyter lab
 ```
 
 &nbsp;
+
 > **Note:**
 > If you encounter problems with the jupyter lab command, you can also start it using the full path inside your virtual environment. For example, use `.venv/bin/jupyter lab` on Linux/macOS or `.venv\Scripts\jupyter-lab` on Windows.
 
 &nbsp;
-
 
 &nbsp;
 
@@ -193,8 +186,6 @@ Finally, we can install dependencies from a remote location using the `uv pip` i
 ```bash
 uv pip install -U -r https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/refs/heads/main/requirements.txt
 ```
-
-
 
 ---
 

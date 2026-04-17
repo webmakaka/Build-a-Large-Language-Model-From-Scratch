@@ -1,6 +1,5 @@
 # Optional Setup Instructions
 
-
 This document lists different approaches for setting up your machine and using the code in this repository. I recommend browsing through the different sections from top to bottom and then deciding which approach best suits your needs.
 
 &nbsp;
@@ -19,8 +18,6 @@ pip install -r requirements.txt
 > `pip install uv && uv pip install --system -r https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/refs/heads/main/requirements.txt`
 > Optionally, after cloning the repository, you install the dependencies for all bonus materials with `uv pip install --group bonus` from the project root. This is useful if you don't want to install them separately as you check out the optional bonus materials later on.
 
-
-
 In the video below, I share my personal approach to setting up a Python environment on my computer:
 
 <br>
@@ -28,13 +25,14 @@ In the video below, I share my personal approach to setting up a Python environm
 
 [![Link to the video](https://img.youtube.com/vi/yAcWnfsZhzo/0.jpg)](https://www.youtube.com/watch?v=yAcWnfsZhzo)
 
-
 &nbsp;
+
 # Local Setup
 
 This section provides recommendations for running the code in this book locally. Note that the code in the main chapters of this book is designed to run on conventional laptops within a reasonable timeframe and does not require specialized hardware. I tested all main chapters on an M3 MacBook Air laptop. Additionally, if your laptop or desktop computer has an NVIDIA GPU, the code will automatically take advantage of it.
 
 &nbsp;
+
 ## Setting up Python
 
 If you don't have Python set up on your machine yet, I have written about my personal Python setup preferences in the following directories:
@@ -42,13 +40,13 @@ If you don't have Python set up on your machine yet, I have written about my per
 - [01_optional-python-setup-preferences](./01_optional-python-setup-preferences)
 - [02_installing-python-libraries](./02_installing-python-libraries)
 
-The *Using DevContainers* section below outlines an alternative approach for installing project dependencies on your machine.
+The _Using DevContainers_ section below outlines an alternative approach for installing project dependencies on your machine.
 
 &nbsp;
 
 ## Using Docker DevContainers
 
-As an alternative to the *Setting up Python* section above, if you prefer a development setup that isolates a project's dependencies and configurations, using Docker is a highly effective solution. This approach eliminates the need to manually install software packages and libraries and ensures a consistent development environment. You can find more instructions for setting up Docker and using a DevContainer:
+As an alternative to the _Setting up Python_ section above, if you prefer a development setup that isolates a project's dependencies and configurations, using Docker is a highly effective solution. This approach eliminates the need to manually install software packages and libraries and ensures a consistent development environment. You can find more instructions for setting up Docker and using a DevContainer:
 
 - [03_optional-docker-environment](03_optional-docker-environment)
 
@@ -56,7 +54,7 @@ As an alternative to the *Setting up Python* section above, if you prefer a deve
 
 ## Visual Studio Code Editor
 
-There are many good options for code editors. My preferred choice is the popular open-source [Visual Studio Code (VSCode)](https://code.visualstudio.com) editor, which can be easily enhanced with many useful plugins and extensions (see the *VSCode Extensions* section below for more information). Download instructions for macOS, Linux, and Windows can be found on the [main VSCode website](https://code.visualstudio.com).
+There are many good options for code editors. My preferred choice is the popular open-source [Visual Studio Code (VSCode)](https://code.visualstudio.com) editor, which can be easily enhanced with many useful plugins and extensions (see the _VSCode Extensions_ section below for more information). Download instructions for macOS, Linux, and Windows can be found on the [main VSCode website](https://code.visualstudio.com).
 
 &nbsp;
 
@@ -108,20 +106,17 @@ Then, navigate to the Python script or Jupyter Notebook you want to run. Optiona
 
 ## Using Google Colab
 
-To use a Google Colab environment in the cloud, head over to [https://colab.research.google.com/](https://colab.research.google.com/) and open the respective chapter notebook from the GitHub menu or by dragging the notebook into the *Upload* field as shown in the figure below.
+To use a Google Colab environment in the cloud, head over to [https://colab.research.google.com/](https://colab.research.google.com/) and open the respective chapter notebook from the GitHub menu or by dragging the notebook into the _Upload_ field as shown in the figure below.
 
 <img src="https://sebastianraschka.com/images/LLMs-from-scratch-images/setup/README/colab_1.webp" alt="1" width="700">
-
 
 Also make sure you upload the relevant files (dataset files and .py files the notebook is importing from) to the Colab environment as well, as shown below.
 
 <img src="https://sebastianraschka.com/images/LLMs-from-scratch-images/setup/README/colab_2.webp" alt="2" width="700">
 
-
-You can optionally run the code on a GPU by changing the *Runtime* as illustrated in the figure below.
+You can optionally run the code on a GPU by changing the _Runtime_ as illustrated in the figure below.
 
 <img src="https://sebastianraschka.com/images/LLMs-from-scratch-images/setup/README/colab_3.webp" alt="3" width="700">
-
 
 &nbsp;
 

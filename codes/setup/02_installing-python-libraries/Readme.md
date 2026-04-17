@@ -4,12 +4,8 @@ This document provides more information on double-checking your installed Python
 
 I used the following libraries listed [here](https://github.com/rasbt/LLMs-from-scratch/blob/main/requirements.txt) for this book. Newer versions of these libraries are likely compatible as well. However, if you experience any problems with the code, you can try these library versions as a fallback.
 
-
-
 > **Note:**
 > If you you are using `uv` as described in [Option 1: Using uv](../01_optional-python-setup-preferences/README.md), you can replace `pip` via `uv pip` in the commands below. For example, `pip install -r requirements.txt` becomes `uv pip install -r requirements.txt`
-
-
 
 To install these requirements most conveniently, you can use the `requirements.txt` file in the root directory for this code repository and execute the following command:
 
@@ -22,7 +18,6 @@ Alternatively, you can install it via the GitHub URL as follows:
 ```bash
 pip install -r https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/requirements.txt
 ```
-
 
 Then, after completing the installation, please check if all the packages are installed and are up to date using
 
@@ -44,8 +39,8 @@ In this case, you may want to use `watermark` to check if you opened the Jupyter
 
 <img src="https://sebastianraschka.com/images/LLMs-from-scratch-images/setup/02_installing-python-libraries/watermark.jpg" width="350px">
 
-
 &nbsp;
+
 ## Installing PyTorch
 
 PyTorch can be installed just like any other Python library or package using pip. For example:
@@ -54,7 +49,7 @@ PyTorch can be installed just like any other Python library or package using pip
 pip install torch
 ```
 
-However, since PyTorch is a comprehensive library featuring CPU- and GPU-compatible codes, the installation may require additional settings and explanation (see the *A.1.3 Installing PyTorch in the book for more information*).
+However, since PyTorch is a comprehensive library featuring CPU- and GPU-compatible codes, the installation may require additional settings and explanation (see the _A.1.3 Installing PyTorch in the book for more information_).
 
 It's also highly recommended to consult the installation guide menu on the official PyTorch website at [https://pytorch.org](https://pytorch.org).
 
@@ -62,13 +57,11 @@ It's also highly recommended to consult the installation guide menu on the offic
 
 <br>
 
-
-
 &nbsp;
+
 ## JupyterLab tips
 
 If you are viewing the notebook code in JupyterLab rather than VSCode, note that JupyterLab (in its default setting) has had scrolling bugs in recent versions. My recommendation is to go to Settings -> Settings Editor and change the "Windowing mode" to "none" (as illustrated below), which seems to address the issue.
-
 
 ![Jupyter Glitch 1](https://sebastianraschka.com/images/reasoning-from-scratch-images/bonus/setup/jupyter_glitching_1.webp)
 
@@ -79,8 +72,5 @@ If you are viewing the notebook code in JupyterLab rather than VSCode, note that
 <br>
 
 ---
-
-
-
 
 Any questions? Please feel free to reach out in the [Discussion Forum](https://github.com/rasbt/LLMs-from-scratch/discussions).

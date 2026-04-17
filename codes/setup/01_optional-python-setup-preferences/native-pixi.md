@@ -11,6 +11,7 @@ Someone might choose pixi over uv if they need a polyglot package manager that s
 In this tutorial, I am using a computer running macOS, but this workflow is similar for Linux machines and may work for other operating systems as well.
 
 &nbsp;
+
 ## 1. Install pixi
 
 Pixi can be installed as follows, depending on your operating system.
@@ -35,13 +36,11 @@ wget -qO- https://pixi.sh/install.sh | sh
 
 Download the installer from the official [documentation](https://pixi.sh/latest/installation/#__tabbed_1_2) or run the listed PowerShell command.
 
-
-
 > **Note:**
 > For more installation options, please refer to the official [pixi documentation](https://pixi.sh/latest/).
 
-
 &nbsp;
+
 ## 1. Install Python
 
 You can install Python using pixi:
@@ -54,6 +53,7 @@ pixi add python=3.10
 > I recommend installing a Python version that is at least 2 versions older than the most recent release to ensure PyTorch compatibility. For example, if the most recent version is Python 3.13, I recommend installing version 3.10 or 3.11. You can find out the most recent Python version by visiting [python.org](https://www.python.org).
 
 &nbsp;
+
 ## 3. Install Python packages and dependencies
 
 To install all required packages from a `pixi.toml` file (such as the one located at the top level of this GitHub repository), run the following command, assuming the file is in the same directory as your terminal session:
@@ -80,6 +80,7 @@ pixi remove packaging
 ```
 
 &nbsp;
+
 ## 4. Run Python code
 
 Your environment should now be ready to run the code in the repository.
@@ -99,7 +100,6 @@ You can launch a JupyterLab instance via:
 ```bash
 pixi run jupyter lab
 ```
-
 
 ---
 
