@@ -1,9 +1,5 @@
 # Глава 1: Знакомство с большими языковыми моделями
 
-<br/>
-
-<img src="../img/chapter01-pic01.jpg">
-
 <br>
 
 ### An overview of the LLM development lifecycle covered in this book:
