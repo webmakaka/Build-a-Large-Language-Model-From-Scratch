@@ -21,8 +21,8 @@
 ```shell
 $ mkdir -p ~/projects/dev/ml/llm
 $ cd ~/projects/dev/ml/llm
-$ git clone https://github.com/rasbt/LLMs-from-scratch
-$ cd LLMs-from-scratch/
+$ git clone https://github.com/webmakaka/Build-a-Large-Language-Model-From-Scratch
+$ cd Build-a-Large-Language-Model-From-Scratch/
 ```
 
 <br/>
