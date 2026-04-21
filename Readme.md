@@ -21,8 +21,7 @@ https://github.com/rasbt/LLMs-from-scratch
 
 <br/>
 
-<img src="./img/chapter01-pic01.jpg">
-
+<img src="./img/chapter01-pic01.jpg" alt="Этапы создания большой языковой модели">
 
 <br/>
 
