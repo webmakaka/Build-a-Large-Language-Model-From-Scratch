@@ -44,7 +44,7 @@ $ cd Build-a-Large-Language-Model-From-Scratch/
 
 ```shell
 $ pip install uv
-$ uv venv --python=python3.10
+$ uv venv --python=python3.12
 $ source .venv/bin/activate
 $ uv pip install -r requirements.txt
 $ uv run jupyter lab
