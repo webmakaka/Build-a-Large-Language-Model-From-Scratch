@@ -18,6 +18,8 @@
 
 <br/>
 
+Текст, был преобразован во вложенные токены.
+
 ```python
 import torch
 inputs = torch.tensor(
