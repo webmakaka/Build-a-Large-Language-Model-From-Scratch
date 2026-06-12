@@ -1,4 +1,10 @@
-# Chapter 5: Pretraining on Unlabeled Data
+# Глава 5: Предварительное обучение на неразмеченных данных
+
+&nbsp;
+
+[![Link to the video](https://img.youtube.com/vi/Zar2TJv-sE0/0.jpg)](https://www.youtube.com/watch?v=Zar2TJv-sE0)
+
+&nbsp;
 
 ### Main Chapter Code
 
@@ -11,4 +17,3 @@
 
 - [gpt_train.py](gpt_train.py) is a standalone Python script file with the code that we implemented in [ch05.ipynb](ch05.ipynb) to train the GPT model (you can think of it as a code file summarizing this chapter)
 - [gpt_generate.py](gpt_generate.py) is a standalone Python script file with the code that we implemented in [ch05.ipynb](ch05.ipynb) to load and use the pretrained model weights from OpenAI
-
