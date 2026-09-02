@@ -66,4 +66,4 @@ $ uv run jupyter lab
 
 ## Продолжение:
 
-[[Книга][Рашка С.] Создание рассуждающей модели (с нуля) [ENG, 2026]](https://github.com/webmakaka/reasoning-from-scratch)
+[[Книга][Рашка С.] Создание модели с возможностью логического рассуждения (с нуля) [ENG, 2026]](https://github.com/webmakaka/Build-a-Reasoning-Model-From-Scratch)
