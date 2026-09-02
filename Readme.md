@@ -61,3 +61,9 @@ $ source .venv/bin/activate
 $ uv pip install -r requirements.txt
 $ uv run jupyter lab
 ```
+
+<br/>
+
+## Продолжение:
+
+[[Книга][Рашка С.] Создание рассуждающей модели (с нуля) [ENG, 2026]](https://github.com/webmakaka/reasoning-from-scratch)
